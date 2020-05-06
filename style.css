@@ -1,0 +1,60 @@
+/*adding css to body tag*/
+body {
+    background-color:#efeee7;
+    font-style:Georgia,"Times New Roman",Times,serif;
+    color:#333333;
+    margin:0;
+    padding:0
+}
+
+/* added background and text color*/
+header{
+    background-color:#333333;
+    color:white;
+}
+
+/* added font size margin and padding size, and centered text*/
+h1{color:#eee;
+    font-size:28px;
+    margin:0;
+    padding:20px 0px 20px 0px;
+    text-align: center;
+}
+
+/*moved around a bit by eye*/
+h2{
+    font-size: 24px;
+    margin:0 auto;
+    padding: 40px 50px 20px 50px;
+}
+
+/* floated left*/
+#bio-image{
+    float: left;
+    width: 200px;
+    margin:0px 20px 0px 50px;
+}
+
+/*floated left*/
+#main-bio{
+    float:left;
+    width: 70%;
+}
+
+/*floated left as well, thinking if these were in a <div> I wouldn't have to repeat myself*/
+
+#contact-info{
+    float: left;
+    width: 30%;
+    font-size: 15px;
+    line-height: 24.5px;
+    
+}
+
+/* here we go link color */
+a{
+    color:#d21034;
+    
+}
+
+
